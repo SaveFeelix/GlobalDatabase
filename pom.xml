@@ -14,12 +14,18 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.jetbrains/annotations -->
         <dependency>
-            <groupId>org.jetbrains</groupId>
-            <artifactId>annotations</artifactId>
-            <version>23.0.0</version>
+            <groupId>com.github.SaveFeelix</groupId>
+            <artifactId>GlobalDatabase</artifactId>
+            <version>global-release-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
