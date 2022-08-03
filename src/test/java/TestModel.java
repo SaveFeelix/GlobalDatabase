@@ -11,7 +11,7 @@ public class TestModel {
     public Integer id;
 
     @Name(name = "DisplayName")
-    @Length(minLength = 8, maxLength = 10)
+    @Length(length = 20)
     public String displayName = "test";
 
     @Name(name = "SingleCharacter")
