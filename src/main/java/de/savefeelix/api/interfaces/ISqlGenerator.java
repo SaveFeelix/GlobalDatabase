@@ -5,5 +5,5 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 public interface ISqlGenerator {
-    <T> String generate(@NotNull DataBaseActionType type, @Nullable T value, @Nullable Object... values);
+    <T> String generate(@NotNull DataBaseActionType type, @NotNull T value, @Nullable Object... values);
 }
